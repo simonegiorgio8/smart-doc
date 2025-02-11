@@ -5,11 +5,17 @@ In questo progetto si definisce un semplice esempio di sistema RAG (Retrieval-Au
 Tecnologie Utilizzate:
 
 -Streamlit: Per la creazione di un'interfaccia utente interattiva e user-friendly.
+
 -FastAPI e Uvicorn: Per la definizione e gestione delle API REST e l'ASGI server.
+
 -OpenAI GPT-4: Il modello LLM che genera le risposte basate sulle query degli utenti.
+
 -LangChain: Per la gestione del contesto conversazionale e la memoria, integrato tramite:
+
     langchain-openai: Per interfacciarsi con OpenAI all'interno di LangChain.
+    
     langchain-community: Per la gestione dei documenti e della memoria.
+
 -Pinecone: Vector database per l'elaborazione e l'indicizzazione dei documenti, consentendo ricerche rapide e mirate.
 
 ![screenshot di esempio](screenshot.png)
