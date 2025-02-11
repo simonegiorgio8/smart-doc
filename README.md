@@ -11,9 +11,7 @@ Tecnologie Utilizzate:
 -OpenAI GPT-4: Il modello LLM che genera le risposte basate sulle query degli utenti.
 
 -LangChain: Per la gestione del contesto conversazionale e la memoria, integrato tramite:
-
     langchain-openai: Per interfacciarsi con OpenAI all'interno di LangChain.
-    
     langchain-community: Per la gestione dei documenti e della memoria.
 
 -Pinecone: Vector database per l'elaborazione e l'indicizzazione dei documenti, consentendo ricerche rapide e mirate.
